@@ -1,0 +1,13 @@
+.center {
+    text-align: center;
+}
+.header {
+    width: 75%;
+    margin: 0 auto;
+}
+figcaption {
+    padding-top: 10px;
+    color: hotpink;
+    font-size: 1.2em;
+}
+

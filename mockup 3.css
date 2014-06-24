@@ -1,0 +1,43 @@
+html {
+    background: dodgerblue;
+
+}
+h1 {
+    color: white;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li:first-child {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+ul li {
+    list-style: none;
+    padding-top: 5px;
+}
+.whitebox {
+    display: inline-block;
+    width: 40%;
+    margin: 0 0;
+    border: 2px solid black;
+    background: white;
+    padding: 5px 5px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding-top: 20px;
+}
+.button button {
+    padding: 5px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.7);
+}

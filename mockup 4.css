@@ -1,12 +1,7 @@
 form input {
-    display: inline-block;
-    clear: both;
 }
 form {
     color: mediumpurple;
-    width: 40%;
-    clear: both;
-
 }
 
 h1 {
@@ -21,6 +16,43 @@ input[type="submit"] {
     font-size: .8em;
     box-shadow: 2px 2px 5px rgba(0,0,0,.7);
 }
-* {
-    padding: 5px;
+
+.header {
+    border: 1px solid black;
+    width: 100%;
+    padding: 0;
+}
+.header ul {
+    padding-left: 5px;
+}
+.header li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+dl {
+    width: 250px;
+    overflow: hidden;
+    padding: 0;
+    margin: 5px 0;
+}
+dl * {
+    padding: 0;
+    margin: 5px 0;
+}
+dt {
+    width: 30%;
+    float: left;
+    font-size: 1.2em;
+}
+dd {
+    width: 70%;
+    float: left;
+}
+input[type="text"] {
+    height: 25px;
+    width: 150px;
+    font-size: 1em;
+    color: rgba(0,0,0,.7)
 }
